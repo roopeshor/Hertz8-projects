@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gesture Mouse | Hertz8 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style.css?v=1">
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="#" class="logo">Hertz<span class="highlight">8</span></a>
+            <nav>
+                <ul>
+                    <li><a href="../index.html#projects">Back to Exhibits</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <span class="subtitle">Hardware Interface</span>
+                <h1>Hand Gesture Mouse</h1>
+                <div class="project-hero-image">
+                    <img src="../assets/hand_gesture_mouse.jpg" alt="Hand Gesture Mouse">
+                </div>
+            </div>
+        </section>
+
+        <section class="project-details">
+            <div class="container">
+                <div class="content-block">
+                    <h2>Overview</h2>
+                    <p>The Hand Gesture Mouse is a productivity tool concept that utilizes an ESP32 microcontroller and
+                        motion
+                        sensors to translate hand tilts and directional movements into computer cursor movements
+                        via Bluetooth. It offers a interaction method that replicates traditional
+                        mouse functions without the need for a physical surface.</p>
+
+                    <h3>Features</h3>
+                    <ul>
+                        <li><strong>No need of a surface:</strong> Operates in 3D space, unlike
+                            traditional mice.</li>
+                        <li><strong>Accessibility:</strong> Ideal for users with mobility impairments.</li>
+                        <li><strong>Distance Control:</strong> Allows control from a distance.</li>
+                    </ul>
+
+                    <h3>Technology Stack</h3>
+                    <p>The system is built on specialized hardware and robust software processing:</p>
+                    <ul>
+                        <li><strong>ESP32 NodeMCU:</strong> For processing sensor data and handling
+                            Bluetooth HID.</li>
+                        <li><strong>MPU6050:</strong> A 3-axis accelerometer and gyroscope for motion tracking.
+                        </li>
+                        <li><strong>Input Mechanisms:</strong> Flex Sensor for left-click, Push Buttons for
+                            right-click/scroll, and TTP223 capacitive touch sensor.</li>
+                        <li><strong>Power:</strong> 3.3V Lithium-ion battery or via USB (in the demo).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Hertz8. The Future is Now.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

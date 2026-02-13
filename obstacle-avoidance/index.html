@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obstacle Avoidance | Hertz8 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style.css?v=1">
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="#" class="logo">Hertz<span class="highlight">8</span></a>
+            <nav>
+                <ul>
+                    <li><a href="../index.html#projects">Back to Exhibits</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <span class="subtitle">Autonomous Navigation</span>
+                <h1>Obstacle Avoidance Rover</h1>
+                <div class="project-hero-image">
+                    <img src="../assets/obstacle_avoidance.jpg" alt="Rover Prototype">
+                </div>
+            </div>
+        </section>
+
+        <section class="project-details">
+            <div class="container">
+                <div class="content-block">
+                    <h2>Overview</h2>
+                    <p>An autonomous mobile robot capable of navigating unknown environments by detecting and evading
+                        physical obstructions. The system uses ultrasonic echolocation to "see" its surroundings and
+                        make real-time decisions to stop, reverse, or turn.</p>
+
+                    <h3>Technical Stack</h3>
+                    <ul>
+                        <li><strong>Arduino Uno:</strong> Central processing unit.</li>
+                        <li><strong>Ultrasonic Sensor:</strong> Measures distance via echo timing.</li>
+                        <li><strong>Servo Motor:</strong> Sweeps the sensor to extend the field of view.</li>
+                        <li><strong>DC Gear Motors & L298N Driver:</strong> Manage motion control.</li>
+                    </ul>
+
+                    <h3>Impact</h3>
+                    <p>This architecture serves as a critical educational prototype for self-driving vehicles, warehouse
+                        automation, and service robotics, solving the problem of collision-free movement without human
+                        oversight.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Hertz8. The Future is Now.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

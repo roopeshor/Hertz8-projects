@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiking Neural Network | Hertz8 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style.css?v=1">
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="#" class="logo">Hertz<span class="highlight">8</span></a>
+            <nav>
+                <ul>
+                    <li><a href="../index.html#projects">Back to Exhibits</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <span class="subtitle">Neuromorphic Computing</span>
+                <h1>Spiking Neural Network</h1>
+                <div class="project-hero-image">
+                    <img src="../assets/spiking_neural_thumb.jpg?v=2" alt="Spiking Neural Network">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="project-details">
+            <div class="container">
+                <div class="content-block">
+                    <h2>Overview</h2>
+                    <p>A Spiking Neural Network (SNN) mimics biological neural systems by transmitting information using
+                        discrete electrical spikes. This project implements an analog neuron model where computation is
+                        achieved through the integration of electrical charges, offering a high-efficiency alternative
+                        to traditional digital AI.</p>
+
+                    <h3>Core Concepts</h3>
+                    <ul>
+                        <li><strong>Analog Operation:</strong> Uses continuous voltage inputs and charge integration.
+                        </li>
+                        <li><strong>Event-Driven:</strong> Output commands are encoded in the firing rate of spikes.
+                        </li>
+                        <li><strong>Energy Efficiency:</strong> Minimizes data movement and eliminates clock-driven
+                            operations.</li>
+                    </ul>
+
+
+
+                    <h3>Circuit Components</h3>
+                    <ul>
+                        <li><strong>Input/Capacitor:</strong> Integration stage where charge accumulates.</li>
+                        <li><strong>Schmitt Trigger:</strong> Detects threshold to generate a spike.</li>
+                        <li><strong>Output/Synapse:</strong> Transmits the pulse to the next neuron.</li>
+                        <li><strong>Discharge Mechanism:</strong> Resets the neuron after firing.</li>
+                    </ul>
+
+                    <h3>Significance</h3>
+                    energy consumption, closely mirroring biological brains.</p>
+
+                    <div class="project-video-container" style="margin-top: 40px;">
+                        <video controls loop muted>
+                            <source src="../assets/spiking_neural_landscape.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Hertz8. The Future is Now.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

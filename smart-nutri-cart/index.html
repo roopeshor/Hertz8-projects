@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Nutri Cart | Hertz8 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style.css?v=1">
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="#" class="logo">Hertz<span class="highlight">8</span></a>
+            <nav>
+                <ul>
+                    <li><a href="../index.html#projects">Back to Exhibits</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <span class="subtitle">Health Tech</span>
+                <h1>Smart Nutri Cart</h1>
+                <div class="project-hero-image">
+                    <img src="../assets/smart_nutri_cart_1.jpg" alt="Smart Nutri Cart Prototype">
+                </div>
+            </div>
+        </section>
+
+        <section class="project-details">
+            <div class="container">
+                <div class="content-block">
+                    <h2>Overview</h2>
+                    <p>The Smart Nutri Cart is an ESP32-powered device mounted on shopping carts that provides real-time
+                        nutritional analysis. It helps users manage lifestyle diseases like diabetes, cholesterol, and
+                        hypertension by scanning product barcodes and offering instant health recommendations.</p>
+
+                    <h3>How It Works</h3>
+                    <ol>
+                        <li><strong>Select Concern:</strong> User chooses health concern (e.g., Diabetes) and severity
+                            level.</li>
+                        <li><strong>Scan Product:</strong> User scans the barcode of a food item.</li>
+                        <li><strong>Analysis:</strong> System checks nutrition data against health thresholds via the
+                            Open Food Facts API.</li>
+                        <li><strong>Result:</strong> LCD displays risk level and suggests healthy alternatives.</li>
+                    </ol>
+
+                    <div class="media-grid">
+                        <img src="../assets/smart_nutri_cart_2.jpg" alt="Nutri Cart Interface">
+                    </div>
+
+                    <h3>Tech Stack</h3>
+                    <ul>
+                        <li><strong>ESP32 DevKit V1:</strong> Main controller processing data and Wi-Fi.</li>
+                        <li><strong>16x2 LCD I2C:</strong> Visual feedback display.</li>
+                        <li><strong>Open Food Facts API:</strong> Nutrition database.</li>
+                    </ul>
+
+                    <h3>Future Scope</h3>
+                    <p>Plans include integrating a touchscreen interface, AI-based intelligent suggestions, and
+                        multi-concern tracking.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Hertz8. The Future is Now.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

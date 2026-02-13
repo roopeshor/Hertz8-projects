@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Follower Cart | Hertz8 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style.css?v=1">
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="#" class="logo">Hertz<span class="highlight">8</span></a>
+            <nav>
+                <ul>
+                    <li><a href="../index.html#projects">Back to Exhibits</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <span class="subtitle">Autonomous Robotics</span>
+                <h1>Line Follower Cart</h1>
+                <div class="project-hero-image">
+                    <img src="../assets/line_follower_1.jpg" alt="Line Follower Cart">
+                </div>
+            </div>
+        </section>
+
+        <section class="project-details">
+            <div class="container">
+                <div class="content-block">
+                    <h2>Overview</h2>
+                    <p>A sensor-driven robotic cart that autonomously navigates a path using real-time embedded control
+                        logic. This project demonstrates the practical application of embedded systems and automation.
+                    </p>
+
+                    <h3>How It Works</h3>
+                    <p>The system uses IR sensors mounted at the bottom of the cart to continuously monitor the surface
+                        below. It detects the contrast between the line (usually black) and the surface, processing this
+                        data to adjust motor speed and direction in real-time.</p>
+
+                    <div class="media-grid">
+                        <img src="../assets/line_follower_2.jpg" alt="Line Follower Component">
+                    </div>
+
+                    <h3>Key Components</h3>
+                    <ul>
+                        <li><strong>Microcontroller:</strong> The brain of the cart, processing sensor inputs and
+                            controlling motors.</li>
+                        <li><strong>IR Sensor Module:</strong> Detects the path by measuring reflected infrared light.
+                        </li>
+                        <li><strong>Motor Driver (L298N/L293D):</strong> Amplifies control signals to drive the DC
+                            motors.</li>
+                        <li><strong>Chassis & Wheels:</strong> The physical structure and movement mechanism.</li>
+                    </ul>
+
+                    <h3>Applications</h3>
+                    <p>This technology is foundational for Automated Guided Vehicles (AGVs) in industries, warehouse
+                        logistics, and smart transportation systems.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Hertz8. The Future is Now.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
