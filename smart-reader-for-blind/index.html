@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Reader for Blind | Hertz8</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style.css?v=2">
+    <link rel="stylesheet" href="../project.css?v=1">
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="#" class="logo">Hertz<span class="highlight">8</span></a>
+            <nav>
+                <ul>
+                    <li><a href="../index.html#projects">Back to Exhibits</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <span class="subtitle">Assistive Technology</span>
+                <h1>Smart Reader for Blind</h1>
+                <div class="project-hero-image">
+                    <!-- Placeholder image as requested -->
+                    <img src="../assets/obstacle_avoidance.jpg" alt="Smart Reader Device">
+                </div>
+            </div>
+        </section>
+
+        <section class="project-details">
+            <div class="container">
+                <div class="content-block">
+                    <h2>Overview</h2>
+                    <p>This project focuses on creating a low-cost and user-friendly device designed to assist visually
+                        impaired individuals in reading printed text. It addresses a critical need by offering an
+                        affordable alternative to expensive Braille readers and similar assistive technologies. Unlike
+                        traditional solutions, it eliminates the complexity of learning Braille while ensuring
+                        accessibility for a larger audience.</p>
+                    <p>It can read books, documents, and signs, making it a practical tool for both education and daily
+                        life.</p>
+
+                    <h3>How It Works</h3>
+                    <p>The system proposes a Reader for Blind system using Raspberry Pi, which captures images of
+                        printed text, processes them, and converts them into speech output.</p>
+
+                    <div class="media-grid">
+                        <!-- Placeholder image as requested -->
+                        <img src="../assets/pcb_showcasing_1.jpg" alt="Smart Reader Prototype">
+                    </div>
+
+                    <h3>Technology Stack</h3>
+                    <ul>
+                        <li><strong>Raspberry Pi:</strong> The core processing unit.</li>
+                        <li><strong>Camera Module:</strong> Captures high-resolution images of printed text.</li>
+                        <li><strong>OpenCV:</strong> Processes images for grayscale conversion and enhancement.</li>
+                        <li><strong>Tesseract OCR:</strong> Recognizes and extracts text characters from the processed
+                            images.</li>
+                        <li><strong>eSpeak:</strong> Converts the recognized text into audible speech output via a
+                            speaker.</li>
+                    </ul>
+
+                    <h3>Impact</h3>
+                    <p>This project demonstrates how affordable and accessible technology can be leveraged to address
+                        significant challenges faced by visually impaired individuals, offering them a means to engage
+                        more actively with their surroundings and improve their quality of life.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Hertz8</p>
+        </div>
+    </footer>
+</body>
+
+</html>
